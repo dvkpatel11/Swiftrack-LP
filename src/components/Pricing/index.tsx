@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Flexible Pricing for Your Transport Analytics Needs"
+          paragraph="Choose the plan that best fits your business size and requirements. Scale up as your business grows."
           center
           width="665px"
         />
@@ -59,43 +59,43 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="Free"
+            price="0"
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Perfect for small businesses just starting out."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Up to 5 vehicles" status="active" />
+            <OfferList text="Basic asset tracking" status="active" />
+            <OfferList text="Simple trip planning" status="active" />
+            <OfferList text="Email support" status="active" />
+            <OfferList text="Advanced analytics" status="inactive" />
+            <OfferList text="QuickBooks integration" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            price={isMonthly ? "99" : "990"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Ideal for growing fleets with more complex needs."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Up to 20 vehicles" status="active" />
+            <OfferList text="Advanced asset tracking" status="active" />
+            <OfferList text="Comprehensive trip planning" status="active" />
+            <OfferList text="Priority email support" status="active" />
+            <OfferList text="Basic analytics" status="active" />
+            <OfferList text="QuickBooks integration" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Premium"
+            price={isMonthly ? "199" : "1990"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="For large fleets requiring full-featured analytics."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Unlimited vehicles" status="active" />
+            <OfferList text="Real-time asset tracking" status="active" />
+            <OfferList text="AI-powered trip optimization" status="active" />
+            <OfferList text="24/7 priority support" status="active" />
+            <OfferList text="Advanced analytics dashboard" status="active" />
+            <OfferList text="QuickBooks integration" status="active" />
           </PricingBox>
         </div>
       </div>

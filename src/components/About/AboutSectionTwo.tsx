@@ -12,13 +12,13 @@ const AboutSectionTwo = () => {
             >
               <Image
                 src="/images/about/about-image-2.svg"
-                alt="about image"
+                alt="Analytics Dashboard"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/about-image-2-dark.svg"
-                alt="about image"
+                alt="Analytics Dashboard"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
@@ -28,29 +28,34 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Real-time Analytics
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Get instant insights into your transport operations with our
+                  real-time analytics dashboard. Monitor key performance
+                  indicators, track fleet efficiency, and make data-driven
+                  decisions to optimize your business.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Seamless Integration
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Our platform integrates seamlessly with QuickBooks, allowing
+                  you to export data with a single click. Streamline your
+                  accounting processes and ensure accurate financial reporting.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Customizable Reporting
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Create custom reports tailored to your specific business
+                  needs. From driver performance to vehicle utilization, our
+                  flexible reporting tools give you the insights you need to
+                  drive your business forward.
                 </p>
               </div>
             </div>

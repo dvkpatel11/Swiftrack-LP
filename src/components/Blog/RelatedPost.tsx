@@ -22,6 +22,7 @@ const RelatedPost = ({
       <div className="w-full">
         <h5>
           <Link
+            style={{ borderRadius: "8px" }}
             href={slug}
             className="mb-[6px] block text-base font-medium leading-snug text-black hover:text-primary dark:text-white dark:hover:text-primary"
           >

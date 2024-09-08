@@ -1,3 +1,25 @@
+export function Logo({ size, fontSizeFactor }): JSX.Element {
+  return (
+    <div
+      style={{
+        alignItems: "center",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          borderRadius: 8,
+          border: "2px solid white",
+          alignItems: "center",
+          display: "flex",
+          justifyContent: "center",
+          padding: 2,
+          height: 32,
+          width: 32,
+        }}
+      >
+        <div style={{ scale: 2.4, marginBottom: -9 }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             // xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1288,3 +1310,19 @@
               </g>
             </g>
           </svg>
+        </div>
+      </div>
+      <div>
+        <h2
+          style={{
+            fontSize: 20,
+            fontWeight: "bold",
+            marginLeft: "8px",
+          }}
+        >
+          TRANSLOGIX
+        </h2>
+      </div>
+    </div>
+  );
+}
