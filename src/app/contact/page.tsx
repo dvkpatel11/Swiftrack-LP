@@ -6,7 +6,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="We’re here to help you optimize your transport operations! Whether you have questions about our services, need support, or want to learn more about how TransLogix can benefit your business, we’d love to hear from you."
       />
       <Contact />
     </>

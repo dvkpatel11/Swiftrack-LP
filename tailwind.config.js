@@ -1,5 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
 const colors = require("tailwindcss/colors");
+
+const neutral = {
+  0: "#F5F5F5",
+  100: "#E9ECEF",
+  200: "#DEE1E7",
+  300: "#D2D6E0",
+  400: "#C6CBD9",
+  500: "#B0B7C6",
+  600: "#8F99A9",
+  700: "#6D7A8C",
+  800: "#1D2939",
+  900: "#181F2D",
+};
 
 module.exports = {
   content: [
@@ -39,22 +53,22 @@ module.exports = {
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#121723",
-        dark: "#1D2430",
-        primary: "#4A6CF7",
+        dark: neutral[800],
+        primary: "#0A54FF",
         yellow: "#FBB040",
-        "bg-color-dark": "#171C28",
+        "bg-color-dark": neutral[900],
         "body-color": {
-          DEFAULT: "#788293",
-          dark: "#959CB1",
+          DEFAULT: neutral[600],
+          dark: neutral[400],
         },
         stroke: {
-          stroke: "#E3E8EF",
-          dark: "#353943",
+          DEFAULT: neutral[200],
+          dark: neutral[700],
         },
         gray: {
           ...colors.gray,
-          dark: "#1E232E",
-          light: "#F0F2F9",
+          dark: neutral[800],
+          light: neutral[100],
         },
       },
 

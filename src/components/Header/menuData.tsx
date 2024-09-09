@@ -62,7 +62,7 @@ const menuData: Menu[] = [
   //     },
   //     {
   //       id: 46,
-  //       title: "Sign In Page",
+  //       title: "Log In Page",
   //       path: "/signin",
   //       newTab: false,
   //     },

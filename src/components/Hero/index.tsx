@@ -11,14 +11,25 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Streamline Your Transport Business With TransLogix: One
-                  Dashboard, Endless Possibilities
+                <h1
+                  style={{ fontSize: 40 }}
+                  className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
+                >
+                  Unlock The Full Potential Of Your Transport Operations With
+                  TransLogix:
+                </h1>
+                <h1
+                  style={{ fontSize: 40 }}
+                  className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight"
+                >
+                  One Dashboard, Endless Possibilities
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Effortlessly manage clients, contracts, drivers, vehicles, and
-                  trips - all while seamlessly integrating with QuickBooks for
-                  hassle-free accounting.
+                  Our platform simplifies the management of business resources,
+                  document tracking, and order fulfillment while providing
+                  insightful analytics and hassle-free accounting. Experience
+                  seamless integration that empowers you to focus on growth and
+                  efficiency.
                 </p>
                 <div className="mb-12">
                   <Image
@@ -294,21 +305,6 @@ const Hero = () => {
       </section>
     </>
   );
-};
-
-const getBenefitDescription = (benefit) => {
-  switch (benefit) {
-    case "Centralized Management":
-      return "Manage all aspects of your transport business from a single, intuitive platform.";
-    case "Seamless QuickBooks Integration":
-      return "Export data directly to QuickBooks, saving time and reducing errors in financial reporting.";
-    case "Enhanced Efficiency":
-      return "Streamline operations by digitizing resource management and trip planning.";
-    case "Data-Driven Decisions":
-      return "Gain valuable insights into your business performance with comprehensive analytics.";
-    default:
-      return "";
-  }
 };
 
 export default Hero;
