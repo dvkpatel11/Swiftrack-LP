@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: ["localhost"],
     remotePatterns: [
       {
         protocol: "https",
@@ -12,8 +12,14 @@ const nextConfig = {
       },
     ],
   },
-  basePath: process.env.NODE_ENV === "production" ? "/Swiftrack-LP" : "",
+  async rewrites() {
+    return [
+      {
+        source: "/",
+        destination: "/home",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
- 
