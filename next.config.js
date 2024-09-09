@@ -12,6 +12,7 @@ const nextConfig = {
       },
     ],
   },
+  basePath: process.env.NODE_ENV === "production" ? "/Swiftrack-LP" : "",
 };
 
 module.exports = nextConfig;
