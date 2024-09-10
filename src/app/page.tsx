@@ -1,5 +1,11 @@
+import AboutSectionOne from "@/components/About/AboutSectionOne";
+import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import ScrollUp from "@/components/Common/ScrollUp";
+import Contact from "@/components/Contact";
+import Features from "@/components/Features";
+import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
-import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "TransLogix - Streamline Your Transport Business",
@@ -11,5 +17,19 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  redirect("/home");
+  return (
+    <>
+      <ScrollUp />
+      <Hero />
+      <Features />
+      {/* <Video /> */}
+      {/* <Brands /> */}
+      <AboutSectionOne />
+      <AboutSectionTwo />
+      {/* <Testimonials /> */}
+      <Pricing />
+      {/* <Blog /> */}
+      <Contact />
+    </>
+  );
 }

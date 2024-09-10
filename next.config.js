@@ -8,15 +8,16 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "cdn.sanity.io",
-        port: "",
       },
     ],
   },
-  async rewrites() {
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  async redirects() {
     return [
       {
         source: "/",
         destination: "/home",
+        permanent: true,
       },
     ];
   },
